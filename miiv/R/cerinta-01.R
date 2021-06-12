@@ -3,10 +3,17 @@
 # mesaj corespunzător către utilizator.
 
 constanta_normalizare <- function(f) {
+  # folosim blocul tryCatch pentru a verifica dacă intergrala este convergentă
   tryCatch(
-    return(1/integrate(f = f, lower = -Inf, upper = Inf)$value),
-      error = function(err) {
-        print("Nu se poate determina constanta de normalizare!")
-      }
+    
+    # aplicăm formula pentru constanta de normalizare
+    return(1 / integrate(f = f, lower = -Inf, upper = Inf) $ value), 
+    
+    error = function(err) {
+      # dacă functia nu are constantă de normalizare, se afișează următorul mesaj
+      print("Nu se poate determina constanta de normalizare!")
+    }
   )
 }
+
+pdf("cerinta-01.pdf")
