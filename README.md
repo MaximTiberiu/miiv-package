@@ -13,7 +13,7 @@
 * **Team Project** with:
   * [@andreea75](https://github.com/andreea75);
   * [@Al-Th-Ionescu](https://github.com/Al-Th-Ionescu);
-  * [@VMadalina](https://github.com/VMadalina)
+  * [@VMadalina](https://github.com/VMadalina).
 
 ## Project requirements
 - [ ] 1. Fiind dată o funcție f, introdusă de utilizator, să se determine constata de normalizare k. În cazul în care o asemenea constantă nu există, se va afișa un mesaj corespunzător către utilizator.
@@ -34,7 +34,7 @@
 * RStudio - the used IDE.
 
 ## Status
-Project is: *0% complete*
+Project is: *0% complete*.
 
 ## License
 The project is licensed under the terms of the **MIT** license.
