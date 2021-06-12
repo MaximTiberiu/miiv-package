@@ -7,7 +7,7 @@ constanta_normalizare <- function(f) {
   tryCatch(
 
     # aplicăm formula pentru constanta de normalizare
-    return(1 / integrate(f = f, lower = -Inf, upper = Inf) $ value),
+    return(1 / integrate(f = Vectorize(f), lower = -Inf, upper = Inf) $ value),
 
     error = function(err) {
       # dacă funcția nu are constantă de normalizare, se afișează următorul mesaj
@@ -15,3 +15,5 @@ constanta_normalizare <- function(f) {
     }
   )
 }
+
+# Cerință realizată de: Vînaga Mădălina
