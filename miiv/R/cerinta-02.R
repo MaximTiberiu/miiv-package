@@ -1,0 +1,1 @@
+# Să se verifice dacă o funcție introdusă de utilizator este densitate de probabilitate.
