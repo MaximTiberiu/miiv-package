@@ -27,7 +27,7 @@ verifica_densitate <- function(f) {
       return (TRUE)
     },
 
-    # Afișare mesaj, pentru cazul contrar.
+      # Afișare mesaj, pentru cazul contrar.
       error = function(err) {
         print("Funcția NU este densitate de probabilitate.")
         return (FALSE)
