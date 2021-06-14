@@ -27,14 +27,14 @@
 - [ ] 9. Să se genereze n valori, unde n este numărul precizat de utilizator, dintr-o repartiție de variabile aleatoare continue.
 - [ ] 10. Să se calculeze covarianța și coeficientul de corelație pentru două variabile aleatoare continue. Trebuie să folosiți densitatea comună a celor două variabile aleatoare.
 - [ ] 11. Pornind de la densitatea comună a două variabile aleatoare continue, să se construiască densitățile marginale continue și densitățile condiționate. 
-- [ ] 12. Să se construiască suma și diferența a două variabile aleatoare continue independente, folosind formula de convoluție.
+- [X] 12. Să se construiască suma și diferența a două variabile aleatoare continue independente, folosind formula de convoluție.
 
 ## Technologies
 * R - used for the main development of the application;
 * RStudio - the used IDE.
 
 ## Status
-Project is: *33.33% complete*.
+Project is: *41.66% complete*.
 
 ## License
 The project is licensed under the terms of the **MIT** license.
