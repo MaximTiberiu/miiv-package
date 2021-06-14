@@ -34,5 +34,3 @@ verifica_densitate <- function(f) {
     }
   )
 }
-
-# Cerință realizată de: Ionescu Alexandru-Theodor

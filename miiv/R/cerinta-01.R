@@ -15,5 +15,3 @@ constanta_normalizare <- function(f) {
     }
   )
 }
-
-# Cerință realizată de: Vînaga Mădălina
