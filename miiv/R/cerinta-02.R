@@ -23,14 +23,14 @@ verifica_densitate <- function(f) {
       }
 
       # Dacă funcția îndeplinește ambele condiții, rezultă că este densitate de probabilitate.
-      print("Funcția este densitate de probabilitate.")
+      cat("Funcția este densitate de probabilitate.\n")
       return (TRUE)
     },
 
-      # Afișare mesaj, pentru cazul contrar.
-      error = function(err) {
-        print("Funcția NU este densitate de probabilitate.")
-        return (FALSE)
+    # Afișare mesaj, pentru cazul contrar.
+    error = function(err) {
+      cat("Funcția NU este densitate de probabilitate.\n")
+      return (FALSE)
     }
   )
 }

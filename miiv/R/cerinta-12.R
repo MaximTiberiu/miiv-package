@@ -3,12 +3,26 @@
 
 # suma a doua variabile aleatoare, folosind formula de convolutie
 sumaVA_convolutie <- function(f, g) {
-  function(z) (integrate(f = function(x) (f(x) * g(z - x)), lower = -Inf, upper = Inf) $ value)
+  function(z) {
+    integrate(
+      f = function(x) {
+        f(x) * g(z - x)
+      },
+      lower = -Inf,
+      upper = Inf) $ value
+  }
 }
 
 # diferenta a doua variabile aleatoare, folosind formula de convolutie
 difVA_convolutie <- function(f, g) {
-  function(z) (integrate(f = function(x) (f(x) * g(x - z)), lower = -Inf, upper = Inf) $ value)
+  function(z) {
+    integrate(
+      f = function(x) {
+        f(x) * g(x - z)
+      },
+      lower = -Inf,
+      upper = Inf) $ value
+  }
 }
 
 
