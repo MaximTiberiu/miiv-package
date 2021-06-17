@@ -1,7 +1,7 @@
 # Să se calculeze media și dispersia unei variabile aleatoare g(X), unde X are o
 # repartiție continuă cunoscută, iar g este o funcție continuă precizată de utilizator.
 
-medie_dipsersie <- function(g) {
+medie_dispersie <- function(g) {
   #media variabilei aleatoare g(X)
   prod_func <- function(x) {
     x * g(x)
