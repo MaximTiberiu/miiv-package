@@ -20,7 +20,7 @@
 - [X] 2. Să se verifice dacă o funcție introdusă de utilizator este densitate de probabilitate.
 - [ ] 3. Să se creeze un obiect de tip variabilă aleatoare continuă pornind de la o densitate de probabilitate introdusă de utilizator. Funcția trebuie să aibă opțiunea pentru variabile aleatoare unidimensionale, respectiv bidimensionale.
 - [X] 4. Să se reprezinte grafic densitatea și funcția de repartiție pentru diferite valori ale parametrilor repartiției. În cazul în care funcția de repartiție nu este dată într-o formă explicită (ex. repartiția normală), se acceptă reprezentarea grafică a unei aproximări a acesteia.
-- [ ] 5. Să se calculeze media, dispersia și momentele inițiale și centrate până la ordinul 4, dacă există. Atunci când unul dintre momente nu există, se va afișa un mesaj corespunzător către utilizator.
+- [X] 5. Să se calculeze media, dispersia și momentele inițiale și centrate până la ordinul 4, dacă există. Atunci când unul dintre momente nu există, se va afișa un mesaj corespunzător către utilizator.
 - [X] 6. Să se calculeze media și dispersia unei variabile aleatoare g(X), unde X are o repartiție continuă cunoscută, iar g este o funcție continuă precizată de utilizator.
 - [ ] 7. Să se creeze o funcție P care permite calculul diferitelor tipuri de probabilități asociate unei variabile aleatoare continue, similar funcției P din pachetul discreteRV.
 - [ ] 8. Afișați o „fișă de sinteză” care să conțină informații de bază despre respectiva repartiție (cu precizarea sursei informației). Relevant aici ar fi să precizați pentru ce e folosită în mod uzual acea repartiție, semnificația parametrilor, media, dispersia etc.
@@ -34,7 +34,7 @@
 * RStudio - the used IDE.
 
 ## Status
-Project is: *41.66% complete*.
+Project is: *50% complete*.
 
 ## License
 The project is licensed under the terms of the **MIT** license.
