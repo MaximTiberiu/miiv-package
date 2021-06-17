@@ -25,8 +25,8 @@
 - [ ] 7. Să se creeze o funcție P care permite calculul diferitelor tipuri de probabilități asociate unei variabile aleatoare continue, similar funcției P din pachetul discreteRV.
 - [ ] 8. Afișați o „fișă de sinteză” care să conțină informații de bază despre respectiva repartiție (cu precizarea sursei informației). Relevant aici ar fi să precizați pentru ce e folosită în mod uzual acea repartiție, semnificația parametrilor, media, dispersia etc.
 - [ ] 9. Să se genereze n valori, unde n este numărul precizat de utilizator, dintr-o repartiție de variabile aleatoare continue.
-- [ ] 10. Să se calculeze covarianța și coeficientul de corelație pentru două variabile aleatoare continue. Trebuie să folosiți densitatea comună a celor două variabile aleatoare.
-- [ ] 11. Pornind de la densitatea comună a două variabile aleatoare continue, să se construiască densitățile marginale continue și densitățile condiționate. 
+- [X] 10. Să se calculeze covarianța și coeficientul de corelație pentru două variabile aleatoare continue. Trebuie să folosiți densitatea comună a celor două variabile aleatoare.
+- [X] 11. Pornind de la densitatea comună a două variabile aleatoare continue, să se construiască densitățile marginale continue și densitățile condiționate. 
 - [X] 12. Să se construiască suma și diferența a două variabile aleatoare continue independente, folosind formula de convoluție.
 
 ## Technologies
@@ -34,7 +34,7 @@
 * RStudio - the used IDE.
 
 ## Status
-Project is: *50% complete*.
+Project is: *66.66% complete*.
 
 ## License
 The project is licensed under the terms of the **MIT** license.
