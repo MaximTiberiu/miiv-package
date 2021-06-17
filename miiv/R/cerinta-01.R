@@ -11,7 +11,9 @@ constanta_normalizare <- function(f) {
 
     error = function(err) {
       # dacă funcția nu are constantă de normalizare, se afișează următorul mesaj
-      cat("Nu se poate determina constanta de normalizare!\n")
+      message(paste("Nu se poate determina constanta de normalizare!\n"))
+      message(paste(err, "\n"))
+      return (NA)
     }
   )
 }

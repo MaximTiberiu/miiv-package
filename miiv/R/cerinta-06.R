@@ -6,14 +6,14 @@ medie_dispersie <- function(g) {
   prod_func <- function(x) {
     x * g(x)
   }
-  medie <- integrate(f = Vectorize(prod_func), lower = -Inf, upper = Inf)$value
+  medie <- integrate(f = Vectorize(prod_func), lower = -Inf, upper = Inf) $ value
 
   #dispersia variabilei aleatoare g(X)
   prod_func_patrat <- function(x) {
-    x*x*g(x)
+    x * x * g(x)
   }
-  medie_patrat <- integrate(f = Vectorize(prod_func_patrat), lower = -Inf, upper = Inf)$value
-  dispersie <- medie_patrat - medie^2
+  medie_patrat <- integrate(f = Vectorize(prod_func_patrat), lower = -Inf, upper = Inf) $ value
+  dispersie <- medie_patrat - medie ^ 2
 
   result <- list("medie" = medie, "dispersie" = dispersie)
   return(result)
