@@ -201,7 +201,7 @@ meniu_afisare_densitati <- function() {
   cat("6. Repartiția Gamma\n")
   cat("7. Repartiția Chi-Square\n")
   cat("8. Repartiția Log-normală\n")
-  enter <- as.numeric(readline(prompt = "Repartiția aleasă este: "))
+  enter <- as.numeric(readline(prompt = "Repartitia aleasă este: "))
 
   switch(  EXPR = enter,
            {
@@ -255,7 +255,7 @@ meniu_afisare_functie_repartitie <- function() {
   cat("6. Repartiția Gamma\n")
   cat("7. Repartiția Chi-Square\n")
   cat("8. Repartiția Log-normală\n")
-  enter <- as.numeric(readline(prompt = "Repartiția aleasă este: "))
+  enter <- as.numeric(readline(prompt = "Repartitia aleasă este: "))
 
   switch(  EXPR = enter,
            {
