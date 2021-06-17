@@ -23,7 +23,7 @@
 - [X] 5. Să se calculeze media, dispersia și momentele inițiale și centrate până la ordinul 4, dacă există. Atunci când unul dintre momente nu există, se va afișa un mesaj corespunzător către utilizator.
 - [X] 6. Să se calculeze media și dispersia unei variabile aleatoare g(X), unde X are o repartiție continuă cunoscută, iar g este o funcție continuă precizată de utilizator.
 - [ ] 7. Să se creeze o funcție P care permite calculul diferitelor tipuri de probabilități asociate unei variabile aleatoare continue, similar funcției P din pachetul discreteRV.
-- [ ] 8. Afișați o „fișă de sinteză” care să conțină informații de bază despre respectiva repartiție (cu precizarea sursei informației). Relevant aici ar fi să precizați pentru ce e folosită în mod uzual acea repartiție, semnificația parametrilor, media, dispersia etc.
+- [X] 8. Afișați o „fișă de sinteză” care să conțină informații de bază despre respectiva repartiție (cu precizarea sursei informației). Relevant aici ar fi să precizați pentru ce e folosită în mod uzual acea repartiție, semnificația parametrilor, media, dispersia etc.
 - [ ] 9. Să se genereze n valori, unde n este numărul precizat de utilizator, dintr-o repartiție de variabile aleatoare continue.
 - [X] 10. Să se calculeze covarianța și coeficientul de corelație pentru două variabile aleatoare continue. Trebuie să folosiți densitatea comună a celor două variabile aleatoare.
 - [X] 11. Pornind de la densitatea comună a două variabile aleatoare continue, să se construiască densitățile marginale continue și densitățile condiționate. 
@@ -34,7 +34,7 @@
 * RStudio - the used IDE.
 
 ## Status
-Project is: *66.66% complete*.
+Project is: *75% complete*.
 
 ## License
 The project is licensed under the terms of the **MIT** license.
