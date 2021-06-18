@@ -1,4 +1,4 @@
-#Repartiția chi-squared
+# Repartiția chi-squared
 chisquare <- function(){
   cat("Repartiția chi-squared\nDEFINIȚIE: Spunem că variabila aleatoare X are o distribuție χ^2 (Chi-squared) cu n ∈ N grade de
            libertate dacă are densitatea: \n

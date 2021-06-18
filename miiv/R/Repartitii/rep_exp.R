@@ -1,4 +1,4 @@
-#Repartiția exponențială
+# Repartiția exponențială
 exponential <- function(){
   cat("Repartiția exponențială\nDEFINIȚIE: Spunem că variabila aleatoare X are o distribuție exponențială cu parametrul λ > 0
            dacă X are densitatea dată de: \n

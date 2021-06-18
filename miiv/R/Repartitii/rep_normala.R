@@ -1,4 +1,4 @@
-#Repartiția normală
+# Repartiția normală
 normala <- function(){
   cat("Repartiția normală\nDEFINIȚIE: Spunem că variabila aleatoare X are o distribuție normală cu parametrii μ și σ^2
            dacă X are densitatea: \n

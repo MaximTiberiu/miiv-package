@@ -1,4 +1,4 @@
-#Repartiția uniformă
+# Repartiția uniformă
 uniforma <- function(){
   cat("Repartiția uniformă\nDEFINIȚIE: Spunem că X este o variabilă aleatoare uniformă continuă pe intervalul [a, b]
            dacă X are funcția de distribuție dată de: \n

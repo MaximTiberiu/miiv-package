@@ -8,37 +8,32 @@ afisare_fisa <- function() {
   cat("2. Repartiție normală\n")
   cat("3. Repartiție exponențială\n")
   cat("4. Repartiția Chi-Square\n")
+  cat("5. Repartiția Beta\n")
+  cat("6. Repartiția Gamma\n")
+  cat("7. Repartiția Log-normală\n")
   enter <- as.numeric(readline(prompt = "Repartitia aleasă este: "))
 
-  #setwd('./Repartitii/')
   switch(  EXPR = enter,
            {
              uniforma()
-             # cat("Dorești salvarea fișei de sinteză?\n")
-             # cat("1. Da\n")
-             # cat("2. Nu\n")
-             # opt <- as.numeric(readline(prompt = "Optiunea aleasa este: "))
-             # if(opt == 1) {
-             #   knitr::stitch('rep_uniforma.R')
-             # }
            },
            {
             normala()
-             # cat("Dorești salvarea fișei de sinteză?\n")
-             # cat("1. Da\n")
-             # cat("2. Nu\n")
-             # opt <- as.numeric(readline(prompt = "Optiunea aleasa este: "))
-             # if(opt == 1) {
-             #   #knitr::stitch('cerinta-08.R')
-             #   rmarkdown::render('cerinta-08.R', 'pdf_document')
-             # }
            },
            {
              exponential()
            },
-
            {
              chisquare()
+           },
+           {
+             beta()
+           },
+           {
+             gamma()
+           },
+           {
+             log_normal()
            }
   )
 }
