@@ -3,7 +3,7 @@
 # mesaj corespunzător către utilizator.
 
 constanta_normalizare <- function(f) {
-  # folosim blocul tryCatch pentru a verifica dacă intergrala este convergentă
+  # folosim blocul tryCatch pentru a verifica dacă integrala este convergentă
   tryCatch(
 
     # aplicăm formula pentru constanta de normalizare
@@ -17,3 +17,10 @@ constanta_normalizare <- function(f) {
     }
   )
 }
+
+# TEST COD
+f <- function(x) exp(-x ^ 2)
+constanta_normalizare(f)
+
+g <- function(x) exp(x)
+constanta_normalizare(g)

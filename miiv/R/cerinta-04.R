@@ -191,6 +191,15 @@ grafic_repartitie_log <- function(meanlog, sdlog){
   )
 }
 
+# grafic_denistate_oarecare <- function(f, min, max) {
+#   x <- seq(min, max, 0.01)
+#   plot(x, f(x),
+#        main = "Densitatea",
+#        xlab = "x",
+#        ylab = "f(X)",
+#        col = brewer.pal(n = 3, name = "Set2"))
+# }
+
 meniu_afisare_densitati <- function() {
   cat("Introduceți numărul corespunzător repartiției dorite.\n")
   cat("1. Repartiție uniformă\n")

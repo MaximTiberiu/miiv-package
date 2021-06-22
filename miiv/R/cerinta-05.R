@@ -96,14 +96,5 @@ f <- function(x) {
   else
     0
 }
-
-g <- function(x) {
-  if ((x >= 0) && (x <= pi)) {
-    sin(x) / 2
-  } else {
-    0
-  }
-}
-
-exemplu <- m_d_mi_mc(g)
-exemplu
+F <- m_d_mi_mc(f)
+F

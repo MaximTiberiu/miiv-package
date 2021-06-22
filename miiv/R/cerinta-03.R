@@ -3,8 +3,8 @@
 # opțiunea pentru variabile aleatoare unidimensionale, respectiv bidimensionale.
 
 # Definirea clasei
-setClass(class = "VAC",
-         slots = list(denistate = "function", bidimensionala = "logical", suport = "list"))
+setClass("VAC",
+         slots = list(densitate = "function", bidimensionala = "logical", suport = "list"))
 
 # Constructor clasa
 VAC <- function(densitate, bidimensionala = FALSE, suport = list(c(-Inf, Inf))) {
@@ -12,7 +12,6 @@ VAC <- function(densitate, bidimensionala = FALSE, suport = list(c(-Inf, Inf))) 
   return (res)
 }
 
-# EROARE
 # setGeneric(name = "afisare_VA", function(object) standardGeneric(f = "afisare_VA"))
 # setMethod(f = "afisare_VA", signature = "VAC",
 #           definition = function(object) {

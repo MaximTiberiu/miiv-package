@@ -68,13 +68,11 @@ covarianta_corelatie <- function(f, sX, sY){
   return (res)
 }
 
-f <- function(x, y){
-  return (3/2*(x^2+y^2))
+f <- function(x, y) {
+  return (x ^ 2 + y ^ 2)
 }
-
-sX = c(1, 2)
-sY = c(5, 7)
-
+sX = c(0, 1)
+sY = c(0, 1)
 covarianta_corelatie(f, sX, sY)
 
 

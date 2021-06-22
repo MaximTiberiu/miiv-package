@@ -34,3 +34,24 @@ verifica_densitate <- function(f) {
     }
   )
 }
+
+# TEST COD
+f <- function(x) {
+  if((x >= 0) && (x <= pi / 2)) {
+    cos(x)
+  }
+  else {
+    0
+  }
+}
+verifica_densitate(f)
+
+g <- function(x) {
+  if((x >= 0) && (x <= pi)) {
+    cos(x)
+  }
+  else {
+    0
+  }
+}
+verifica_densitate(g)

@@ -39,10 +39,10 @@ Y <- rlnorm(1000, 1.5, 0.75)
 S <- X + Y
 D <- X - Y
 
-hist(S, freq=F, breaks=50, xlim=c(0, 30))
+hist(S, freq = FALSE, breaks = 50, xlim = c(0, 30))
 s <- seq(0, 50, 0.01)
-lines(s, f.S(s), lty=2, col="red")
+lines(s, f.S(s), lty = 2, lwd = 3, col="red")
 
-hist(D, freq=F, breaks=50, xlim=c(0, 30))
+hist(D, freq = FALSE, breaks = 50, xlim = c(0, 30))
 d <- seq(0, 50, 0.01)
-lines(d, f.D(d), lty=2, col="blue")
+lines(d, f.D(d), lty = 2, lwd = 3, col = "blue")
