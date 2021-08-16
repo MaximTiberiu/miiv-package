@@ -320,5 +320,5 @@ meniu_afisare_grafice <- function() {
   )
 }
 
-meniu_afisare_grafice()
+
 
